@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: com.bestbuy.utilitiesinfo.UtilitiesCURDtestWithSteps
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 0, Errors: 2, Skipped: 0, Time elapsed: 0 sec <<< FAILURE! - in com.bestbuy.utilitiesinfo.UtilitiesCURDtestWithSteps
+test001(com.bestbuy.utilitiesinfo.UtilitiesCURDtestWithSteps)  Time elapsed: 0 sec  <<< ERROR!
+java.lang.NullPointerException: null
+	at com.bestbuy.utilitiesinfo.UtilitiesCURDtestWithSteps.test001(UtilitiesCURDtestWithSteps.java:20)
+
+test002(com.bestbuy.utilitiesinfo.UtilitiesCURDtestWithSteps)  Time elapsed: 0 sec  <<< ERROR!
+java.lang.NullPointerException: null
+	at com.bestbuy.utilitiesinfo.UtilitiesCURDtestWithSteps.test002(UtilitiesCURDtestWithSteps.java:27)
+

@@ -1,0 +1,20 @@
+-------------------------------------------------------------------------------
+Test set: com.bestbuy.productinfo.ProductCURDtestWithSteps
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 0, Errors: 4, Skipped: 0, Time elapsed: 0.014 sec <<< FAILURE! - in com.bestbuy.productinfo.ProductCURDtestWithSteps
+test001(com.bestbuy.productinfo.ProductCURDtestWithSteps)  Time elapsed: 0.008 sec  <<< ERROR!
+java.lang.NullPointerException: null
+	at com.bestbuy.productinfo.ProductCURDtestWithSteps.test001(ProductCURDtestWithSteps.java:36)
+
+test002(com.bestbuy.productinfo.ProductCURDtestWithSteps)  Time elapsed: 0.001 sec  <<< ERROR!
+java.lang.NullPointerException: null
+	at com.bestbuy.productinfo.ProductCURDtestWithSteps.test002(ProductCURDtestWithSteps.java:43)
+
+test003(com.bestbuy.productinfo.ProductCURDtestWithSteps)  Time elapsed: 0 sec  <<< ERROR!
+java.lang.NullPointerException: null
+	at com.bestbuy.productinfo.ProductCURDtestWithSteps.test003(ProductCURDtestWithSteps.java:63)
+
+test004(com.bestbuy.productinfo.ProductCURDtestWithSteps)  Time elapsed: 0.004 sec  <<< ERROR!
+java.lang.NullPointerException: null
+	at com.bestbuy.productinfo.ProductCURDtestWithSteps.test004(ProductCURDtestWithSteps.java:71)
+

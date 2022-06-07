@@ -1,0 +1,3 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"Services CUR dtest with steps","Update the service information and verify the updated information","FAILURE","2022-06-06T21:15:42.255+01:00[Europe/London]","0.0","0.06"
+"Services CUR dtest with steps","Delete the service and verify if the service is deleted!","FAILURE","2022-06-06T21:15:42.320+01:00[Europe/London]","0.0","0.03"

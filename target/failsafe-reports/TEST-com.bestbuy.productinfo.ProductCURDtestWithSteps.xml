@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.bestbuy.productinfo.ProductCURDtestWithSteps" time="0.013" tests="4" errors="4" skipped="0" failures="0">
+  <properties>
+    <property name="idea.version" value="2021.3.2"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_121\jre\bin"/>
+    <property name="java.vm.version" value="25.121-b13"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Users\kgoth\IdeaProjects\week18-bestbuy.com-serenity"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="GB"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="C:\Users\kgoth\IdeaProjects\week18-bestbuy.com-serenity"/>
+    <property name="java.runtime.version" value="1.8.0_121-b13"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_121\jre\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\kgoth\AppData\Local\Temp\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="maven.ext.class.path" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2021.3.2\plugins\maven\lib\maven-event-listener.jar"/>
+    <property name="classworlds.conf" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2021.3.2\plugins\maven\lib\maven3\bin\m2.conf"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_121\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Java\jdk-17.0.2\bin;C:\Program Files\Java\jdk1.8.0_121\bin;C:\Program Files\dotnet\;C:\Program Files\Apache\apache-maven-3.8.5\bin;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\Users\kgoth\AppData\Local\Microsoft\WindowsApps;C:\Users\kgoth\AppData\Roaming\npm;."/>
+    <property name="maven.conf" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2021.3.2\plugins\maven\lib\maven3/conf"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.0"/>
+    <property name="user.home" value="C:\Users\kgoth"/>
+    <property name="user.timezone" value="Europe/London"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="user.name" value="kgoth"/>
+    <property name="java.class.path" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2021.3.2\plugins\maven\lib\maven3\boot\plexus-classworlds-2.6.0.jar;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2021.3.2\plugins\maven\lib\maven3\boot\plexus-classworlds.license;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2021.3.2\lib\idea_rt.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_121\jre"/>
+    <property name="sun.java.command" value="org.codehaus.classworlds.Launcher -Didea.version=2021.3.2 clean verify serenity:aggregate"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_121"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_121\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_121\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_121\jre\classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2021.3.2\plugins\maven\lib\maven3"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase name="test001" classname="com.bestbuy.productinfo.ProductCURDtestWithSteps" time="0.008">
+    <error type="java.lang.NullPointerException:">java.lang.NullPointerException: null
+	at com.bestbuy.productinfo.ProductCURDtestWithSteps.test001(ProductCURDtestWithSteps.java:36)
+</error>
+    <system-err><![CDATA[6015 [main] INFO net.serenitybdd.core.Serenity - 
+        __    _____ _____ ____ _____   ____   _    ____  ____  _____ ____  
+  _     \ \  |_   _| ____/ ___|_   _| |  _ \ / \  / ___|/ ___|| ____|  _ \ 
+ (_)_____| |   | | |  _| \___ \ | |   | |_) / _ \ \___ \\___ \|  _| | | | |
+  _|_____| |   | | | |___ ___) || |   |  __/ ___ \ ___) |___) | |___| |_| |
+ (_)     | |   |_| |_____|____/ |_|   |_| /_/   \_\____/|____/|_____|____/ 
+        /_/                                                                
+
+TEST PASSED: Delete the category and verify if the category is deleted!
+----------------------------------------------------------------------------
+6144 [pool-1-thread-2] INFO net.thucydides.core.reports.json.JSONTestOutcomeReporter - Generating JSON report for Verify if the category was created to file C:\Users\kgoth\IdeaProjects\week18-bestbuy.com-serenity\target\site\serenity\191e480ec083fe0b387dbab38d7444f3d8a16751767cfeb5b00da0f7d2aec381.json (using temp file C:\Users\kgoth\IdeaProjects\week18-bestbuy.com-serenity\target\site\serenity\191e480ec083fe0b387dbab38d7444f3d8a16751767cfeb5b00da0f7d2aec381.json5335b8a8-48ae-46d5-8ca9-cd34745ecb93)
+6144 [pool-1-thread-3] INFO net.thucydides.core.reports.json.JSONTestOutcomeReporter - Generating JSON report for Update the category information and verify the updated information to file C:\Users\kgoth\IdeaProjects\week18-bestbuy.com-serenity\target\site\serenity\682493ffb03d7b450d66f45c6d3a1aed4554c1b4f1fc4f2c488695e6ef50adc9.json (using temp file C:\Users\kgoth\IdeaProjects\week18-bestbuy.com-serenity\target\site\serenity\682493ffb03d7b450d66f45c6d3a1aed4554c1b4f1fc4f2c488695e6ef50adc9.jsonf294bb76-5ab2-4418-919d-748a24246fd4)
+6145 [pool-1-thread-1] INFO net.thucydides.core.reports.json.JSONTestOutcomeReporter - Generating JSON report for This will create a new category to file C:\Users\kgoth\IdeaProjects\week18-bestbuy.com-serenity\target\site\serenity\74dc510d4b4143cd045e0dc4ff8a0a462c5b7b0780296ecfc97fb37e7b63b5e3.json (using temp file C:\Users\kgoth\IdeaProjects\week18-bestbuy.com-serenity\target\site\serenity\74dc510d4b4143cd045e0dc4ff8a0a462c5b7b0780296ecfc97fb37e7b63b5e3.json48130806-3c66-4d6b-8800-169f42c819ca)
+6145 [pool-1-thread-4] INFO net.thucydides.core.reports.json.JSONTestOutcomeReporter - Generating JSON report for Delete the category and verify if the category is deleted! to file C:\Users\kgoth\IdeaProjects\week18-bestbuy.com-serenity\target\site\serenity\de8f4a87d9b592bab2181fcaaf99fa1b8890e4a3ee13d68428082f315dc92ea9.json (using temp file C:\Users\kgoth\IdeaProjects\week18-bestbuy.com-serenity\target\site\serenity\de8f4a87d9b592bab2181fcaaf99fa1b8890e4a3ee13d68428082f315dc92ea9.json4c4c2290-8216-49a5-b02b-003d046b4d9a)
+6424 [pool-2-thread-4] INFO net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - GENERATING HTML REPORT FOR Categories CURD test with steps:test04 in de8f4a87d9b592bab2181fcaaf99fa1b8890e4a3ee13d68428082f315dc92ea9.html in directory target\site\serenity  
+6424 [pool-2-thread-2] INFO net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - GENERATING HTML REPORT FOR Categories CURD test with steps:test02 in 191e480ec083fe0b387dbab38d7444f3d8a16751767cfeb5b00da0f7d2aec381.html in directory target\site\serenity  
+6424 [pool-2-thread-3] INFO net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - GENERATING HTML REPORT FOR Categories CURD test with steps:test03 in 682493ffb03d7b450d66f45c6d3a1aed4554c1b4f1fc4f2c488695e6ef50adc9.html in directory target\site\serenity  
+6424 [pool-2-thread-1] INFO net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - GENERATING HTML REPORT FOR Categories CURD test with steps:test01 in 74dc510d4b4143cd045e0dc4ff8a0a462c5b7b0780296ecfc97fb37e7b63b5e3.html in directory target\site\serenity  
+]]></system-err>
+  </testcase>
+  <testcase name="test002" classname="com.bestbuy.productinfo.ProductCURDtestWithSteps" time="0.001">
+    <error type="java.lang.NullPointerException:">java.lang.NullPointerException: null
+	at com.bestbuy.productinfo.ProductCURDtestWithSteps.test002(ProductCURDtestWithSteps.java:43)
+</error>
+  </testcase>
+  <testcase name="test003" classname="com.bestbuy.productinfo.ProductCURDtestWithSteps" time="0">
+    <error type="java.lang.NullPointerException:">java.lang.NullPointerException: null
+	at com.bestbuy.productinfo.ProductCURDtestWithSteps.test003(ProductCURDtestWithSteps.java:63)
+</error>
+  </testcase>
+  <testcase name="test004" classname="com.bestbuy.productinfo.ProductCURDtestWithSteps" time="0.004">
+    <error type="java.lang.NullPointerException:">java.lang.NullPointerException: null
+	at com.bestbuy.productinfo.ProductCURDtestWithSteps.test004(ProductCURDtestWithSteps.java:71)
+</error>
+  </testcase>
+</testsuite>

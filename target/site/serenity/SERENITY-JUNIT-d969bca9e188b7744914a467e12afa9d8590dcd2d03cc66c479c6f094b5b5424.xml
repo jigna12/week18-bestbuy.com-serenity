@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="2" name="com.bestbuy.servicesinfo.ServicesCURDtestWithSteps" skipped="0" tests="4" time="0.19" timestamp="2022-06-06T21:15:42.143+01:00[Europe/London]"><testcase classname="com.bestbuy.servicesinfo.ServicesCURDtestWithSteps" name="This will create a new service"/><testcase classname="com.bestbuy.servicesinfo.ServicesCURDtestWithSteps" name="Verify if the service was added"/><testcase classname="com.bestbuy.servicesinfo.ServicesCURDtestWithSteps" name="Update the service information and verify the updated information"><failure message="1 expectation failed.&#10;Expected status code &lt;200&gt; but was &lt;404&gt;.&#10;" type="java.lang.AssertionError">1 expectation failed.
+Expected status code &lt;200&gt; but was &lt;404&gt;.
+</failure><system-err>1 expectation failed.
+Expected status code &lt;200&gt; but was &lt;404&gt;.
+&#13;
+io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:636)&#13;
+io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:122)&#13;
+io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:130)&#13;
+io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:117)&#13;
+com.bestbuy.servicesinfo.ServicesCURDtestWithSteps.test003(ServicesCURDtestWithSteps.java:45)&#13;
+</system-err></testcase><testcase classname="com.bestbuy.servicesinfo.ServicesCURDtestWithSteps" name="Delete the service and verify if the service is deleted!"><failure message="1 expectation failed.&#10;Expected status code &lt;200&gt; but was &lt;404&gt;.&#10;" type="java.lang.AssertionError">1 expectation failed.
+Expected status code &lt;200&gt; but was &lt;404&gt;.
+</failure><system-err>1 expectation failed.
+Expected status code &lt;200&gt; but was &lt;404&gt;.
+&#13;
+io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:636)&#13;
+io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:122)&#13;
+io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:130)&#13;
+io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:117)&#13;
+com.bestbuy.servicesinfo.ServicesCURDtestWithSteps.test004(ServicesCURDtestWithSteps.java:53)&#13;
+</system-err></testcase></testsuite>

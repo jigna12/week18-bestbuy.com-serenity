@@ -1,0 +1,7 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"Categories CURD test with steps","This will create a new category","SUCCESS","2022-06-06T21:15:35.119+01:00[Europe/London]","0.0","3.61"
+"Categories CURD test with steps","Verify if the category was created","SUCCESS","2022-06-06T21:15:38.776+01:00[Europe/London]","0.0","1.0"
+"Categories CURD test with steps","Update the category information and verify the updated information","SUCCESS","2022-06-06T21:15:39.781+01:00[Europe/London]","0.0","0.1"
+"Categories CURD test with steps","Delete the category and verify if the category is deleted!","SUCCESS","2022-06-06T21:15:39.888+01:00[Europe/London]","0.0","0.46"
+"Services CUR dtest with steps","This will create a new service","SUCCESS","2022-06-06T21:15:42.143+01:00[Europe/London]","0.0","0.07"
+"Services CUR dtest with steps","Verify if the service was added","SUCCESS","2022-06-06T21:15:42.210+01:00[Europe/London]","0.0","0.04"
